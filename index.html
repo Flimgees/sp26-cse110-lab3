@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name ="description" content = "Meeting Minutes" />
+    <meta name ="author" content = "Roy" />
+
+    <title>Meeting Notes!</title>
+
+    <link rel="icon" href = "assets/favicon_io/favicon.ico" />
+
+  </head>
+
+  <body>
+
+    <h1> Meeting Minutes for Real Company LLC</h1>
+
+    <nav class="agendaMeet">
+      <ol>
+        
+        <li class="agendaMeet"><a href="#Attendance">Attendance</a></li>
+        <li class="agendaMeet"><a href = "#Agenda">Jump to Agenda</a></li>
+        <li class="agendaMeet"><a href = "#Business">New and Old Business </a></li>
+      </ol>
+    </nav>
+
+    <hr />
+
+    <article>
+
+      <header>
+        <h2>Meeting Brainstorm Session and Documentation</h2>
+        <time>4.14.2026</time>
+      </header>
+
+      
+
+
+    </article>
+    
+
+    <h2> Attendance List </h2>
+
+    <div id="Attendance"></div>
+
+    <ul>
+      <li>John Doe</li>
+      <li>K. West</li>
+      <li>J. Adams</li>
+      <li>T. Powell</li>
+      <li>I. Cee </li>
+      <li>Socrates</li>
+    </ul>
+
+    <main>
+      <h2 id = "Agenda">Agenda for 4.14.2026</h2>
+
+      
+
+      <div id="Agenda"></div>
+
+      <details>
+        <summary>Agenda Details</summary>
+        <ul>
+        <li>The shareholders want us to create the <b>next big thing</b>, any ideas?</li>
+        <li><b>Decrease in team sizes</b>, what's next?</li>
+        <li><b>Expectations</b> for the next project</li>
+        <li>Questions and concerns?</li>
+      </ul>
+      </details>
+      
+
+      <div id="Business"></div>
+      <section>
+        <h2>New and Old Business</h2>
+        <h3>Unfinished business from previous meeting</h3>
+        <p>
+          From the previous meeting, we should discuss our performance on the 
+          previous project a bit more and what we can improve on. Also<strong> finalize
+          the weekly meeting time.</strong>
+        </p>
+
+      </section>
+
+      <section>
+        <h3>New Business</h3>
+        <p><span>
+          The shareholders are demanding we integrate AI into this new product.
+          However due to recent layoffs, our team size has been reduced by <em>25%</em>,
+          so how should we divide ourselves into subgroups? We will also <i>discuss
+          team communication styles and feedback styles. </i>
+        </span></p>
+      </section>
+
+      <section>
+        <h3>Questions and Concerns</h3>
+
+        <p>
+           Socrates asks: <br />
+
+          Thou must question <br />
+          If programming makes you the software engineer <br />
+          Then what are you without it?
+
+        </p>
+
+        <label for = "questionConcern"> Tell us your questions/concerns:</label>
+
+        
+        
+
+
+      </section>
+      <textarea id = "questionConcern" name = "Question" rows ="5" cols = "33">
+          First of all, 
+        </textarea>
+      
+
+    </main>
+    <button class="favorite styled" type="button">Submit</button>
+
+
+    <hr />
+
+    <h2>Recording, Audio, Image(s) from 4.14.2026</h2>
+
+    <h3>Image from 4/14/2026</h3>
+
+    <img class = "scale-down" src="/assets/whiteboard.jpg" alt ="Whiteboard 
+    depicting planning process for the next project." />
+
+
+    <section>
+
+      <h3>Recording and Audio</h3>
+
+      <video controls width = "500">
+
+      <source src="/assets/whitelines.mp4" type = "video/mp4" /> 
+
+    </video>
+
+    <figure>
+    <figcaption>Listen to the audio only:</figcaption>
+    <audio controls src="assets/whitelines.mp3"></audio>
+    <a href="/assets/whitelines.mp3"> Download audio </a>
+    </figure>
+
+
+
+    </section>
+    
+
+
+
+    <hr />
+
+
+
+
+
+
+    <h2>Feedback for Next Meeting </h2>
+
+    <label for="start">Feedback Date:</label>
+    <input 
+      type = "date"
+      id = "start"
+      name = "feedbackday"
+      value = "2026-04-14"
+      min = "2026-04-14"
+      max = "2026-12-31" />
+
+
+    <form action="" method="get" class="form-example">
+
+      <div class="form-example">
+
+        <label for="name">Enter your name: </label>
+        <input type="text" name="name" id="name" required />
+      </div>
+      <div class="form-example">
+        <label for="email">Enter your email: </label>
+        <input type="email" name="email" id="email" required />
+      </div>
+
+      <label for = "EmployeeType">Choose your employee title:</label>
+
+      <select id = "EmployeeType">
+
+        <option value = "">--Please Choose an Option--</option>
+        <option value="Junior SWE">Junior SWE</option>
+        <option value="Senior SWE">Senior SWE</option>
+        <option value="Manager">Manager</option>
+        <option value="Observer">Observer</option>
+
+
+      </select>
+
+      <section>
+      <label for = "SectorChoice">Which Sector are you working in?</label>
+      <input list="Sectors" id="SectorChoice" name="SectorChoice" />
+
+      <datalist id="Sector">
+        <option value="Sector 1"></option>
+        <option value="Sector 2"></option>
+        <option value="Sector 3"></option>
+        <option value="Sector X"></option>
+      </datalist>
+      </section>
+
+
+      <section>
+        <fieldset>
+
+        
+
+          <legend>How did you feel about this meeting?</legend>
+
+
+          <input type="radio" id="Good" name="emotion" value="G" />
+          <label for="Good">Good</label><br />
+
+          <input type="radio" id="Meh" name="emotion" value="M" />
+          <label for="Meh"> Meh</label><br />
+
+          <input type="radio" id="Bad" name="emotion" value="B" />
+          <label for="Bad">Bad</label>
+
+        </fieldset>
+
+
+      <div>
+    <input type="checkbox" id="Waiver" name="Waiver" unchecked />
+    <label for="Waiver">I understand my feedback <i>may</i> not be taken into consideration.</label>
+  </div>
+
+
+      </section>
+
+      <section>
+        <button class="favorite styled" type="button">Submit feedback!</button>
+      </section>
+
+
+
+  
+    </form>
+
+
+ 
+
+
+
+    <hr />
+
+    <p>Want to see more work from me in the future? Here is my Github!</p>
+
+    <a href="https://github.com/Flimgees">Github</a>
+
+    <hr />
+
+
+    <div class = "Footer">
+
+      <footer>© CAN'T HURRY LOVE </footer>
+    </div>
+    
+  </body>
+</html>
