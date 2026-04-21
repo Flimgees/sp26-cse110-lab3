@@ -42,7 +42,8 @@ body {color: white;}
     padding: 5px 15px 15px 20px;
     margin: 5mm 15mm 5mm 4mm ;
 
-    max-width: 400px;       
+    max-width: 400px;
+    min-width: 200px;       
 }
 
 html {
@@ -51,6 +52,9 @@ html {
 
 .ems li {
     font-size: 1.25em;
+    color: rgb(255, 255, 255);
+    display: block;
+    position: static;
 }
 
 .agendaHeader
@@ -82,10 +86,11 @@ html {
 
 .agendaMeet ol{
 
-    display: flex;
+    display: inline;
     list-style-type: none;
     padding: 3;
     gap: 600px;
+   
     
 
 }
@@ -96,6 +101,25 @@ html {
     color: rgb(181, 116, 255);
     font-family: "Climate Crisis", sans-serif;
     font-variation-settings: "YEAR" 1979;
+   
+}
+
+button:hover
+{
+    color: blue;
+}
+
+.scale-down{
+    max-width: 50%;
+    height: auto;
+}
+
+
+.imageScale
+{
+   position: relative;
+   top: 20px;
+   left: 400px;
    
 }
 
