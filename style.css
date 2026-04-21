@@ -1,0 +1,16 @@
+/* Hello */
+
+h1 { color: rgb(93,48,178); }
+body {background-color: rgb(0, 0, 0);}
+body {color: white;}
+
+@counter-style fallback {
+    system: fixed; 
+    symbols: "\2160" "\2161" "\2162";
+    fallback: decimal;
+}
+
+.list{
+    list-style: fallback;
+}
+
