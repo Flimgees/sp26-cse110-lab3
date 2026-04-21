@@ -38,8 +38,11 @@ Recap any materials for those who could not make the previous meeting.
 | Topic Title | Importance of the topic   | How the topic will affect our work and what we will do with it       |
 
 
-# To-Do List for This Meeting and Next
+## To-Do List for This Meeting and Next
 
 - [] Task 1
 - [] Task 2
 - [] . . . 
+
+## Final Thoughts 
+Conclusion Here
