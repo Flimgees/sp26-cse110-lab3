@@ -1,7 +1,29 @@
 /* Hello */
 
-h1 { color: rgb(93,48,178); }
-body {background-color: rgb(0, 0, 0);}
+.sekuya-regular {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+
+.climate-crisis-main {
+  font-family: "Climate Crisis", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
+}
+
+
+
+
+
+h1 { color: rgb(182, 149, 243); }
+h2 {color: #90D6FF}
+body {background-color: hsl(0, 0%, 0%);}
 body {color: white;}
 
 @counter-style fallback {
@@ -13,4 +35,70 @@ body {color: white;}
 .list{
     list-style: fallback;
 }
+
+.boxAttendance{
+    background-color: rgb(9, 20, 24);
+    border: 5px solid rgba(150, 255, 90, 0.336);
+    padding: 5px 15px 15px 20px;
+    margin: 5mm 15mm 5mm 4mm ;
+
+    max-width: 400px;       
+}
+
+html {
+    font-size: 16px;
+}
+
+.ems li {
+    font-size: 1.25em;
+}
+
+.agendaHeader
+{
+    font-size: 1.3pc;
+    
+}
+
+.title
+{
+    border-color: rebeccapurple;
+    border-style: dotted hidden dotted ;
+    border-width: .75rem;
+    border-radius: 20%;
+    font-family: "Sekuya", system-ui;
+    text-align: center;
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+    padding-top: 1vw;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 1vh;
+
+}
+
+.agendaMeet ol{
+
+    display: flex;
+    list-style-type: none;
+    padding: 3;
+    gap: 600px;
+    
+
+}
+
+.agendaMeet li a {
+    
+    text-decoration: underline;
+    color: rgb(181, 116, 255);
+    font-family: "Climate Crisis", sans-serif;
+    font-variation-settings: "YEAR" 1979;
+   
+}
+
+
+
 
