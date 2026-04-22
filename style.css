@@ -30,9 +30,13 @@
 
 
 h1 { color: rgb(182, 149, 243); }
-h2 {color: #90D6FF}
+
+h2,h3 {color: #90D6FF}
+
 body {background-color: hsl(0, 7%, 11%);}
-body {color: white;}
+
+body {color: color(srgb 1 1 1);}
+
 
 @counter-style fallback {
     system: fixed; 
@@ -58,7 +62,7 @@ html {
     font-size: 16px;
 }
 
-.ems li {
+.ems > li {
     font-size: 1.25em;
     color: rgb(255, 255, 255);
     display: block;
@@ -80,7 +84,6 @@ html {
     font-family: "Sekuya", system-ui;
     text-align: center;
 
-    margin-top: 35px;
     margin-bottom: 35px;
     margin-left: 50px;
     margin-right: 50px;
@@ -90,6 +93,11 @@ html {
     padding-left: 5px;
     padding-bottom: 1vh;
 
+}
+
+h1 + .title
+{
+    margin-top: 50px;
 }
 
 .agendaMeet ol{
@@ -118,16 +126,22 @@ button:hover
 }
 
 .scale-down{
-    max-width: 50%;
+    max-width: 60%;
     height: auto;
 }
 
 
 .imageScale
 {
-   position: relative;
-   top: 20px;
-   left: 400px;
+
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 19px;
+    align-items: start;
+    position: relative;
+    margin: 10px auto;
+    max-width: 5000px;
+   
    
 }
 
@@ -144,8 +158,24 @@ a:active{
     margin: auto;
 }
 
-#Business, #newBusiness * {
+#Business ~ #newBusiness * {
   color: rgb(209, 209, 255);
+}
+
+
+section.media {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.downloading {
+
+    padding: 30px;
+    font-size: larger;
+
 }
 
 
@@ -153,7 +183,39 @@ video[controls]
 {
     border: 2px solid #fa0000;
     border-radius:  8px;
+    
 }
+
+
+
+
+fieldset label {
+
+    color: color-mix(in srgb, rgb(0, 255, 191) 40%, rgb(190, 235, 235) 60%);
+    margin: auto;
+
+}
+
+.gitHubLink
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+
+    & > a {
+        color:rgb(245, 241, 45)
+    }
+}
+
+
+.form-example:has(input[required])
+{
+    color: rgb(236, 64, 115);
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: #90D6FF;
+}
+
+
+
 
 
 
