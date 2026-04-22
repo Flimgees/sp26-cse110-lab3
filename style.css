@@ -1,5 +1,13 @@
 /* Hello */
 
+@media (min-width:320px) {/*low end phones*/}
+@media (min-width:480px) {/*high end phones*/}
+@media (min-width:600px) {/*tablets of varying degrees*/}
+@media (min-width:801px) {/*laptops and mini pcs*/}
+@media (min-width:1280px) {/*deskktops and laptops*/}
+
+
+
 .sekuya-regular {
   font-family: "Sekuya", system-ui;
   font-weight: 400;
@@ -23,7 +31,7 @@
 
 h1 { color: rgb(182, 149, 243); }
 h2 {color: #90D6FF}
-body {background-color: hsl(0, 0%, 0%);}
+body {background-color: hsl(0, 7%, 11%);}
 body {color: white;}
 
 @counter-style fallback {
@@ -104,7 +112,7 @@ html {
    
 }
 
-button:hover
+button:hover 
 {
     color: blue;
 }
@@ -121,6 +129,30 @@ button:hover
    top: 20px;
    left: 400px;
    
+}
+
+a:active{
+    color:green;
+}
+
+#questionConcern
+{
+    background-color: black;
+    color:white;
+    width: 150px;
+    height: auto;
+    margin: auto;
+}
+
+#Business, #newBusiness * {
+  color: rgb(209, 209, 255);
+}
+
+
+video[controls]
+{
+    border: 2px solid #fa0000;
+    border-radius:  8px;
 }
 
 
