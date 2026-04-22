@@ -104,7 +104,7 @@ h1 + .title
 
     display: inline;
     list-style-type: none;
-    padding: 3;
+    padding: 3px;
     gap: 600px;
    
     
@@ -211,7 +211,6 @@ fieldset label {
 {
     color: rgb(236, 64, 115);
     font-family: 'Times New Roman', Times, serif;
-    text-shadow: #90D6FF;
 }
 
 
