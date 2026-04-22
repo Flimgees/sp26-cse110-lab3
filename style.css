@@ -1,5 +1,13 @@
 /* Hello */
 
+@media (min-width:320px) {/*low end phones*/}
+@media (min-width:480px) {/*high end phones*/}
+@media (min-width:600px) {/*tablets of varying degrees*/}
+@media (min-width:801px) {/*laptops and mini pcs*/}
+@media (min-width:1280px) {/*deskktops and laptops*/}
+
+
+
 .sekuya-regular {
   font-family: "Sekuya", system-ui;
   font-weight: 400;
@@ -23,7 +31,7 @@
 
 h1 { color: rgb(182, 149, 243); }
 h2 {color: #90D6FF}
-body {background-color: hsl(0, 0%, 0%);}
+body {background-color: hsl(0, 7%, 11%);}
 body {color: white;}
 
 @counter-style fallback {
@@ -42,7 +50,8 @@ body {color: white;}
     padding: 5px 15px 15px 20px;
     margin: 5mm 15mm 5mm 4mm ;
 
-    max-width: 400px;       
+    max-width: 400px;
+    min-width: 200px;       
 }
 
 html {
@@ -51,6 +60,9 @@ html {
 
 .ems li {
     font-size: 1.25em;
+    color: rgb(255, 255, 255);
+    display: block;
+    position: static;
 }
 
 .agendaHeader
@@ -82,10 +94,11 @@ html {
 
 .agendaMeet ol{
 
-    display: flex;
+    display: inline;
     list-style-type: none;
     padding: 3;
     gap: 600px;
+   
     
 
 }
@@ -97,6 +110,49 @@ html {
     font-family: "Climate Crisis", sans-serif;
     font-variation-settings: "YEAR" 1979;
    
+}
+
+button:hover 
+{
+    color: blue;
+}
+
+.scale-down{
+    max-width: 50%;
+    height: auto;
+}
+
+
+.imageScale
+{
+   position: relative;
+   top: 20px;
+   left: 400px;
+   
+}
+
+a:active{
+    color:green;
+}
+
+#questionConcern
+{
+    background-color: black;
+    color:white;
+    width: 150px;
+    height: auto;
+    margin: auto;
+}
+
+#Business, #newBusiness * {
+  color: rgb(209, 209, 255);
+}
+
+
+video[controls]
+{
+    border: 2px solid #fa0000;
+    border-radius:  8px;
 }
 
 
